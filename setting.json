@@ -1,0 +1,109 @@
+{
+    "tabnine.experimentalAutoImports": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "workbench.iconTheme": "material-icon-theme",
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.eol": "\n",
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.fontSize": 16,
+    "workbench.colorCustomizations": {},
+    "workbench.activityBar.visible": true,
+    "workbench.sideBar.location": "left",
+    "window.zoomLevel": 0,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword.control.export, meta.export.default",
+                "settings": {
+                    "foreground": "#C792EA",
+                }
+            },
+            //import -- from
+            {
+                "scope": "keyword.control.import, meta.import",
+                "settings": {
+                    "foreground": "#b17254",
+                }
+            },
+            {
+                "scope": "keyword.control.from, meta.from",
+                "settings": {
+                    "foreground": "#b17254",
+                }
+            },
+            // methods
+            {
+                "scope": "entity.name.function.ts, meta.definition.method, meta.method.declaration, meta.objectliteral, meta.object.member, meta.objectliteral, meta.export.default, source.ts, source.vue",
+
+                "settings": {
+                    "foreground": "#be5915",
+                }
+            },
+            {
+                "scope": "support.type.property-name.css, meta.property-name.css, meta.property-list.css",
+
+                "settings": {
+                    "foreground": "#85336f",
+                    "fontStyle": "italic",
+                }
+            },
+            //variable
+            {
+                "scope": "variable.other.constant, meta.definition.variable, meta.var-single-variable.expr, meta.var.expr, meta.block, meta.method.declaration, meta.objectliteral, meta.object.member, meta.objectliteral, meta.export.default",
+
+                "settings": {
+                    "foreground": "#9b561e",
+                    "fontStyle": "italic",
+                }
+            },
+            {
+                "scope": "variable.other.object, meta.function-call, meta.block, meta.method.declaration, meta.objectliteral, meta.object.member, meta.objectliteral, meta.export.default",
+
+                "settings": {
+                    "foreground": "#9b561e",
+                    "fontStyle": "italic",
+                }
+            },
+            // return 
+            {
+                "scope": "keyword.control.flow, meta.block, meta.method.declaration, meta.objectliteral, meta.export.default",
+
+                "settings": {
+                    "foreground": "#C792EA",
+                    "fontStyle": "italic",
+                }
+            },
+            //html text
+            {
+                "scope": "text.html.vue-html",
+
+                "settings": {
+                    "foreground": "#f7f5f8",
+                }
+            },
+            // {
+            //     "scope": "meta.export.default, support.type.object.module.js, source.js",
+
+            //     "settings": {
+            //         "foreground": "#2a0741",
+            //         "fontStyle": "italic",
+            //     }
+            // },
+        ]
+    }
+}
